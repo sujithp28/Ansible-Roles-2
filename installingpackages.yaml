@@ -1,0 +1,7 @@
+---
+- name: installing packages on amazon linux
+  hosts: localhost
+  become: true
+  gather_facts: yes
+  roles:
+    - packages  

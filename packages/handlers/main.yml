@@ -1,0 +1,4 @@
+---
+# handlers file for packages
+- name: restart docker
+  command: systemctl restart docker
